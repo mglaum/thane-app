@@ -14,7 +14,7 @@ export class AppComponent {
     this.toDisplaypp = !this.toDisplaypp; 
     if (this.toDisplaypp == true) {
       let meow = new Audio(); 
-      meow.src = "../assets/sounds/meow.mp3"; 
+      meow.src = "assets/sounds/meow.mp3"; 
       meow.load(); 
       meow.play(); 
     }
@@ -23,7 +23,7 @@ export class AppComponent {
     this.toDisplayje = !this.toDisplayje; 
     if (this.toDisplayje == true) {
       let woof = new Audio(); 
-      woof.src = "../assets/sounds/bark.mp3"; 
+      woof.src = "assets/sounds/bark.mp3"; 
       woof.load(); 
       woof.play(); 
   }
@@ -32,7 +32,7 @@ export class AppComponent {
     this.toDisplaypo = !this.toDisplaypo; 
     if (this.toDisplaypo == true) {
       let fart = new Audio(); 
-      fart.src = "../assets/sounds/fart.mp3"; 
+      fart.src = "assets/sounds/fart.mp3"; 
       fart.load(); 
       fart.play(); 
   }
